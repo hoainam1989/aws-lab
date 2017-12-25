@@ -1,0 +1,20 @@
+{
+  "name": "simple_nodejs_app",
+  "version": "1.0.0",
+  "description": "Simple Nodejs CloudFormation",
+  "main": "index.js",
+  "keywords": [
+    "nodejs",
+    "aws",
+    "cloudformation"
+  ],
+  "author": "HD7EXPLOIT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "config": "^1.28.1",
+    "mysql": "^2.15.0"
+  }
+}
