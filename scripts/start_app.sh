@@ -1,3 +1,3 @@
 cd /home/ec2-user/nodeapp
-npm install 
+sudo npm install 
 forever start index.js

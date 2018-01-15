@@ -1,1 +1,1 @@
-chmod +x /ec2-user/nodeapp/scripts/*
+chmod +x /home/ec2-user/nodeapp/scripts/*
