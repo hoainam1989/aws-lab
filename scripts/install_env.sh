@@ -3,4 +3,3 @@ yum install -y nodejs
 yum install gcc-c++ make -y
 npm install -g forever
 yum install git -y
-chmod +x /home/ec2-user/nodeapp/scripts/*

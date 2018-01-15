@@ -12,7 +12,11 @@ permissions:
       - file
 hooks:
   BeforeInstall:
-    - location: /home/ec2-user/nodeapp/scripts/install_env.sh
+    - location: scripts/install_env.sh
+      timeout: 600
+      runas: root
+  AfterInstall: 
+    - location: scripts/change_perm.sh
       timeout: 600
       runas: root
   ApplicationStart:

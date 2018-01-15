@@ -1,0 +1,1 @@
+chmod +x /ec2-user/nodeapp/scripts/*
